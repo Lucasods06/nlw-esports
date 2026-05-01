@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <!-- Moldura Arredondada -->
+    <rect x="4.5" y="4.5" width="23" height="23" rx="6" stroke="#FA41FE" stroke-width="2"/>
+    <path d="M11 14V21" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="11" cy="10.5" r="1.5" fill="#FA41FE"/>
+    <path d="M16 21V14.5C16 14.5 16 12.5 18.5 12.5C21 12.5 21.5 14.5 21.5 16V21" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>
