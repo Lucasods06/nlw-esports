@@ -46,17 +46,17 @@ const streamsList = [
 const socialList = [
   {
     href: "https://www.instagram.com/lucas.odss/",
-    imgSrc: "/assets/instagram.svg",
+    imgSrc: import.meta.env.BASE_URL + "assets/instagram.svg",
     imgAlt: "Imagem do Instagram"
   },
   {
     href: "https://www.linkedin.com/in/lucasoliveira2006/",
-    imgSrc: "/assets/linkedin.svg",
+    imgSrc: import.meta.env.BASE_URL + "assets/linkedin.svg",
     imgAlt: "Imagem do LinkedIn"
   },
   {
     href: "https://www.linkedin.com/in/lucasoliveira2006/",
-    imgSrc: "/assets/github.svg",
+    imgSrc: import.meta.env.BASE_URL + "assets/linkedin.svg",
     imgAlt: "Imagem do LinkedIn"
   }
 ];
@@ -67,7 +67,7 @@ function App() {
 
       <main>
         <Section
-          tittle="Meus jogos"
+          title="Meus jogos"
           subtitle="Os games que eu mais curto jogar!"
           className="games-list"
         >
@@ -82,7 +82,7 @@ function App() {
         </Section>
 
         <Section
-          tittle="Meus streams favoritos"
+          title="Meus streams favoritos"
           subtitle="Live streams que eu mais assisto!"
           className="channel-list"
         >
@@ -97,7 +97,7 @@ function App() {
           ))}
         </Section>
         <Section
-          tittle="Minhas redes"
+          title="Minhas redes"
           subtitle="Se conecte comigo nas redes sociais!"
           className="social-list"
         >
