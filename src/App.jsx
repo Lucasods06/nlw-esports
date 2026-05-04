@@ -55,9 +55,9 @@ const socialList = [
     imgAlt: "Imagem do LinkedIn"
   },
   {
-    href: "https://www.linkedin.com/in/lucasoliveira2006/",
-    imgSrc: import.meta.env.BASE_URL + "assets/linkedin.svg",
-    imgAlt: "Imagem do LinkedIn"
+    href: "https://github.com/Lucasods06",
+    imgSrc: import.meta.env.BASE_URL + "assets/github.svg",
+    imgAlt: "Imagem do github"
   }
 ];
 function App() {
